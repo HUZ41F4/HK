@@ -80,10 +80,10 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print """
-jalan("\033[1;93m  ____  ____ ")
-jalan("\033[1;93m ||H ||||K ||")
-jalan("\033[1;93m ||__||||__||")
-jalan("\033[1;93m |/__\||/__\|") """
+\033[1;93m  ____  ____ 
+\033[1;93m ||H ||||K ||
+\033[1;93m ||__||||__||
+\033[1;93m |/__\||/__\|"""
 
 CorrectUsername = "Huzaifa"
 CorrectPassword = "HK"
@@ -97,11 +97,11 @@ while (loop == 'true'):
             print "Logged in successfully as " + username
             loop = 'false'
         else:
-            print "yang bener dong"
-            os.system('xdg-open https://wa.me/6285691015635')
+            print "Wrong"
+            os.system('xdg-open https://wa.me/03087584706')
     else:
-        print "salah sayang!"
-        os.system('xdg-open https://wa.me/6285691015635')
+        print "Wrong!"
+        os.system('xdg-open https://wa.me/03087584706')
 
 def login():
 	os.system('clear')
@@ -112,7 +112,7 @@ def login():
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
-		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]' )
+		print('\033[1;96m[☆] \x1b[1;93mLOGIN WITH FACEBOOK \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
